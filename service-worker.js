@@ -1,5 +1,5 @@
 const CACHE_NAME = "sample-pwa-v1";
-const FILES = ["/index.html", "/app.js", "/manifest.json"];
+const FILES = ["index.html", "app.js", "manifest.json"];
 
 self.addEventListener("install", event => {
   event.waitUntil(
@@ -12,3 +12,4 @@ self.addEventListener("fetch", event => {
     caches.match(event.request).then(response => response || fetch(event.request))
   );
 });
+
