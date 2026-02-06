@@ -1,0 +1,8 @@
+{
+  "name": "Sample Claim",
+  "short_name": "Claim",
+  "start_url": "/claiming-prototype/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
